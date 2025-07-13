@@ -43,26 +43,26 @@
   <main>
     <div class="flex justify-center">
       <div class="relative bg-grayish-blue my-20 mx-5 rounded-[16px] shadow-2xl p-10 max-w-lg text-center">
-        <p class="uppercase mb-8 font-semibold text-neon-green text-xs tracking-[.25em]">
+        <h1 class="uppercase mb-8 font-semibold text-neon-green text-xs tracking-[.25em]">
           Advice # <span id="advice-number"></span>
-        </p>
+        </h1>
         <q id="advice" class="text-3xl font-bold text-light-cyan"></q>
         <img class="w-full my-10 mix-blend-screen" src="images/pattern-divider-desktop.svg"
           srcset="images/pattern-divider-mobile.svg 375w, images/pattern-divider-desktop.svg 1440w"
           sizes="(max-width: 375px) 100vw, (max-width: 1440px) 50vw, 100vw"
           alt="Pattern divider">
-        <button class="bg-neon-green rounded-full p-5 absolute left-1/2 transform -translate-x-1/2 -bottom-7 shadow hover:shadow-button-shadow">
-          <img src="images/icon-dice.svg" width="100%"/>
+        <button class="bg-neon-green rounded-full p-5 absolute left-1/2 transform -translate-x-1/2 -bottom-7 shadow hover:shadow-button-shadow" title="Generate new advice" aria-label="Generate new advice">
+          <img src="images/icon-dice.svg" width="100%" alt="Dice icon"/>
         </button>
       </div>
       
     </div>
   </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/jilliannoreen">Jillian Noreen</a>.
-  </div>
+  </footer>
 
   <script src="main.js"></script>
 </body>
